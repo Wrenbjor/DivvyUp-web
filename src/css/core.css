@@ -1,0 +1,76 @@
+/**
+* Core.css
+* Author: Wrenbjor
+**/
+
+html, body {
+    height: 100%;
+
+}
+
+.sidebar {
+  width: 15%;
+  overflow: scroll;
+  display: block;
+    height: 100%;
+  float: left;
+  background-color: #a1a1a1;
+  color: #fff;
+}
+
+.logo {
+  padding-top: 10px;
+}
+
+.logo img{
+  width: 100%;
+}
+
+.slideout-sidebar {
+  width: 93%;
+  overflow: scroll;
+  display: block;
+  padding: 5px;
+  background-color: #a1a1a1;
+}
+
+.slideout-sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.slideout-sidebar ul li {
+  cursor: pointer;
+  padding: 10px 0;
+  color: rgba(244,244,244,0.7);
+}
+
+.slideout-sidebar ul li:last-child {
+  border-bottom: 0;
+}
+
+.slideout-sidebar ul li:hover {
+  color: rgba(244,244,244,1);
+}
+
+.ticker {
+  text-align: center;
+}
+
+.content {
+  width: 85%;
+  overflow: scroll;
+  display: block;
+  float: left;
+  background-color: #f1f1f1;
+}
+
+.content h1 {
+  padding-left: 15px;
+}
+
+.content .info {
+  padding-left: 15px;
+  padding-right: 15px;
+}
